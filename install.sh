@@ -23,10 +23,16 @@ for v in "${PYTHON_VERSIONS[@]}"; do
 done
 wait
 
-# Install pip and tox in all python versions
+# Install pip in all python versions
 for v in "${PYTHON_VERSIONS[@]}"; do
     pyenv shell $v
     pip install -U pip &
+done
+wait
+
+# Install tox in all python versions
+for v in "${PYTHON_VERSIONS[@]}"; do
+    pyenv shell $v
     pip install -U tox &
 done
 wait
