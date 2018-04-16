@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PYTHON_VERSIONS=(2.7.11 3.4.3 3.5.1)
+PYTHON_VERSIONS=(2.7.14 3.4.8 3.5.5 3.6.5)
 PYTHON_GLOBAL_VERSION=3.5.1
 
 # Install pyenv
