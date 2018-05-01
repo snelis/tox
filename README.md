@@ -4,7 +4,7 @@ A Docker image for running python unittests through tox.
 
 ## OS
 
-* Ubuntu 14.04
+* Ubuntu 16.04
 
 ## Python versions
 
