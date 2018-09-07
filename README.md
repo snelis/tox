@@ -1,16 +1,18 @@
-# docker-tox [![Build Status](https://travis-ci.org/kpn-digital/tox.svg?branch=master)](https://travis-ci.org/kpn-digital/tox)
+# docker-tox [![Build Status](https://travis-ci.org/shushen/tox.svg?branch=master)](https://travis-ci.org/shushen/tox)
 
 A Docker image for running python unittests through tox.
 
 ## OS
 
-* Ubuntu 14.04
+* Ubuntu 18.04 LTS
 
 ## Python versions
 
-* 2.7.11
-* 3.4.3
-* 3.5.1 (default)
+* 2.7.15
+* 3.4.9
+* 3.5.6
+* 3.6.6
+* 3.7.0 (default)
 
 ## Python packages
 
